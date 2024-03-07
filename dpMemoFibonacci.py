@@ -1,7 +1,6 @@
 class Fibonacci:
     def __init__(self):
         self.memo = {}
-
     def recursiveFibonacci(self, n: int) -> int:
         if n in self.memo:
             return self.memo[n]
@@ -14,7 +13,6 @@ class Fibonacci:
         self.memo[n] = result
 
         return result
-
 
 n = 9
 cls = Fibonacci()
